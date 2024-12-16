@@ -5,6 +5,27 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.top-container {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  gap: 1em;
+}
+.cat-form {
+  display: flex;
+  flex-direction: column;
+  border: black solid 1px;
+  border-radius: 10px;
+  width: 50%;
+}
+.information {
+  display: flex;
+  flex-direction: column;
+  border: black solid 1px;
+  border-radius: 10px;
+  width: 50%;
+}
+
 input[type="text"],
 input[type="number"] {
   display: block;
@@ -37,7 +58,7 @@ button {
 }
 
 .cat-card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
   text-align: center;
   background-color: #f1f1f1;

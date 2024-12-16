@@ -1,7 +1,9 @@
 import Color from "./color";
+import Race from "./race";
 
 export type Cat = {
   name: string;
   age: number;
-  color: Color | string;
+  color: Color;
+  race: Race;
 };

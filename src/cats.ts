@@ -5,6 +5,7 @@ const catArray: Cat[] = [
     name: "Gustaf",
     age: 12,
     color: "Orange",
+    race: "Siamese",
   },
 ];
 
